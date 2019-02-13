@@ -1,0 +1,9 @@
+{
+  "extends": "standard",
+  "rules": {
+    "no-unused-vars": ["off", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "no-undef": ["off", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+
+  }
+
+}

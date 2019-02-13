@@ -1,15 +1,13 @@
-// class AccountHistory {
-//
-//   constructor() {
-//     this.balance = 0;
-//   }
-//
-//   deposit(ammount) {
-//     this.balance =+ ammount;
-//   }
-//
-//   withdraw(ammount) {
-//     this.balance -= ammount;
-//   }
-//
-// };
+class AccountHistory {
+  constructor () {
+    this.balance = 0
+  }
+
+  deposit (ammount) {
+    this.balance = +ammount
+  }
+
+  withdraw (ammount) {
+    this.balance -= ammount
+  }
+};
