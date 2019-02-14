@@ -6,6 +6,12 @@ describe('AccountHistory', function () {
   })
 
   it('Is empty by default', function () {
-    expect(accountHistory.fullHistory.le).toEqual(0)
+    expect(accountHistory.fullHistory.length).toBe(0)
   })
+
+  it('deposit adds credit item', function () {
+    
+    expect(accountHistory.fullHistory.length).toBe(0)
+  })
+
 })

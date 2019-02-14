@@ -23,11 +23,4 @@ describe('Bank', function () {
     expect(bank.balance).toEqual(34)
   })
 
-  it('should make a log of activity', function () {
-  //   expect(bank.activity.length).toEqual(0);
-  //   bank.deposit(50)
-  //   expect(bank.activity.length).toEqual(1);
-  //   bank.withdraw(16)
-  //   expect(bank.activity.length).toEqual(2);
-  })
 })

@@ -4,13 +4,10 @@ class Bank {
   }
   deposit (ammount) {
     this.balance = +ammount
-    AccountActivityItem('credit', ammount, this.balance)
+    var deposit = new AccountActivityItem('credit', ammount, this.balance)
   }
   withdraw (ammount) {
     this.balance -= ammount
-    makeLog('debit', ammount, this.balance)
-  }
-  makeLog () {
-
+    var withdrawal = new AccountActivityItem('debit', ammount, this.balance)
   }
 };

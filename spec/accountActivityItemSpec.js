@@ -1,4 +1,4 @@
-describe('accountActivityItem', function () {
+describe('AccountActivityItem', function () {
   beforeEach(function () {
     depositing100 = new AccountActivityItem('credit', 100, 100)
     withdrawing50 = new AccountActivityItem('debit', 50, 50)
@@ -18,6 +18,6 @@ describe('accountActivityItem', function () {
   })
 
   it('Records remaining balance of account after activity', function () {
-    expect(withdrawing50.resultingBalance).toBe(50)
+    expect(withdrawing50.resultingBalance).toBe(jasmine.any(Number))
   })
 })

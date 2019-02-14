@@ -1,13 +1,13 @@
 class AccountHistory {
-  constructor () {
-    this.balance = 0
+  constructor(){
+    this.fullHistory = []
   }
 
-  deposit (ammount) {
-    this.balance = +ammount
+  addDebitItem(){
+
+  }
+  addCreditItem(){
+
   }
 
-  withdraw (ammount) {
-    this.balance -= ammount
-  }
 };
